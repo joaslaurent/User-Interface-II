@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 65.25%;
 	font: inherit;
 	vertical-align: baseline;
 	text-decoration: none;
@@ -45,13 +45,54 @@ table {
 
 .container{
 	width:100%;
+	/*min-width: 800px;*/
 	max-width: 1440px;
-	margin: 0 auto;
+	margin: 0px auto;
+	align-content: center;
 }
 
 nav{
 	display:flex;
 	width:100%;
+	flex-direction: column;
+	padding-left: 2%;
+}
+
+.name, .nav-bar {
+	margin: 10px 0px;
+}
+
+.name{
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+nav a{
+	color: black;
+	display: inline-flex;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin: -2px;
+	padding: 5px 20px;
+}
+
+.hero{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 2%;
+}
+
+.hero h2, button, p{
+	margin-bottom: 10px;
+}
+
+.hero h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 
